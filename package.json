@@ -1,8 +1,15 @@
 {
   "name": "auctions",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Auctions is a free and open-source online marketplace that allows you to list your items for auction, manage bids, and track real-time updates with minimal effort. The platform simplifies the auction process by automating manual tasks and providing real-time bid tracking and notifications.",
+  "author": "Nadeem Ashraf <dev.nadeemashraf06@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devnadeemashraf/Auctions.git"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
