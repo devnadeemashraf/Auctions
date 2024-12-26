@@ -10,8 +10,11 @@
     "paths": {
       "@/*": ["./src/*"],
       "@api/*": ["./src/api/*"],
+      "@store/*": ["./src/store/*"],
       "@config/*": ["./src/config/*"],
-      "@assets/*": ["./src/assets/*"]
+      "@assets/*": ["./src/assets/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@components/*": ["./src/components/*"]
     }
   }
 }
