@@ -1,13 +1,18 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { DashboardPage } from "@/pages";
+import AppStatusGuard from "@/components/guards/appStatus";
+
+import { DashboardPage, ComingSoonPage } from "@/pages";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route index element={<DashboardPage />} />
-      </Routes>
+      <AppStatusGuard>
+        <Routes>
+          <Route index element={<DashboardPage />} />
+          <Route path="comingsoon" element={<ComingSoonPage />} />
+        </Routes>
+      </AppStatusGuard>
     </BrowserRouter>
   );
 }

@@ -6,6 +6,9 @@ export default {
     env: import.meta.env.VITE_APP_ENV
       ? import.meta.env.VITE_APP_ENV
       : "development",
+    status: import.meta.env.VITE_APP_STATUS
+      ? import.meta.env.VITE_APP_STATUS
+      : "down",
   },
   api: {
     appwrite: {

@@ -4,6 +4,8 @@
 interface ImportMetaEnv {
   readonly VITE_APP_ENV: "development" | "production";
 
+  readonly VITE_APP_STATUS: "pre-launch" | "live" | "maintenance" | "down";
+
   readonly VITE_APPWRITE_DEV_PROJECT_ID: string;
   readonly VITE_APPWRITE_PROD_PROJECT_ID: string;
 }
