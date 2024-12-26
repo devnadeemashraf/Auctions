@@ -1,7 +1,15 @@
-import Container from "@components/container";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import { DashboardPage } from "@/pages";
 
 function App() {
-  return <Container type="div">Hello</Container>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<DashboardPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;

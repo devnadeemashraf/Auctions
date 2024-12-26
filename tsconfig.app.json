@@ -31,6 +31,7 @@
       "@config/*": ["./src/config/*"],
       "@assets/*": ["./src/assets/*"],
       "@hooks/*": ["./src/hooks/*"],
+      "@pages/*": ["./src/pages/*"],
       "@components/*": ["./src/components/*"]
     }
   },
