@@ -16,14 +16,11 @@ Auctions is a free and open-source online marketplace that allows you to list yo
 - **Discord Integration COMING SOON!**  
   Get notified through Discord with integration for real-time messages.
 
-- **Appwrite as Backend**  
-  Backend-as-a-Service (BaaS) powered by Appwrite to handle user authentication, databases, and more.
-
 ## Tech Stack
 
 - **Frontend**: React, TypeScript, Vite
-- **Backend**: Appwrite (Authentication, Databases, and Storage)
-- **Notifications**: Discord Integration (via Webhooks)
+- **Backend**: Express, TypeScript, MongoDB
+- **Notifications**: In-App & Discord Integration (via Webhooks)
 
 ## Installation
 
@@ -31,7 +28,6 @@ Auctions is a free and open-source online marketplace that allows you to list yo
 
 - [Node.js](https://nodejs.org/) (v16 or higher)
 - [Vite](https://vitejs.dev/) (for local development)
-- [Appwrite Account](https://appwrite.io/) (for backend services)
 
 ### Steps to Set Up Locally
 
@@ -56,17 +52,11 @@ Auctions is a free and open-source online marketplace that allows you to list yo
    yarn install
    ```
 
-3. **Configure Appwrite:**
-
-   - Set up an [Appwrite account](https://appwrite.io/) and create a new project.
-   - In the Appwrite console, enable authentication and create the necessary collections for storing auction data.
-   - Get your **Appwrite Project ID** and **API Endpoint** from the Appwrite console.
-
-4. **Configure environment variables:**
+3. **Configure environment variables:**
 
    Create a `.env` file in the root of your project and replace the contents with what's in `.env.example`
 
-5. **Run the development server:**
+4. **Run the development server:**
 
    Start the Vite development server:
 
@@ -96,7 +86,6 @@ Once the application is up and running, you can:
 You can deploy this app on any platform that supports static web hosting, such as:
 
 - [Vercel](https://vercel.com/)
-- [Appwrite Hosting](https://appwrite.io/)
 
 ## Contributing
 
@@ -115,6 +104,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- [Appwrite](https://appwrite.io/) for providing the backend services.
 - [React](https://reactjs.org/) and [Vite](https://vitejs.dev/) for the frontend framework and build tool.
 - [Discord](https://discord.com/) for integrating notifications. COMING SOON!

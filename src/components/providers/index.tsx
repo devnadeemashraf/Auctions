@@ -1,8 +1,8 @@
 import { PropsWithChildren } from "react";
 
-// Global Providers
-import ReduxProvider from "./reduxProvider";
-import ThemeProvider from "./themeProvider";
+// Providers
+import ReduxProvider from "./redux-provider";
+import ThemeProvider from "./theme-provider";
 
 type TRootProviderProps = PropsWithChildren;
 

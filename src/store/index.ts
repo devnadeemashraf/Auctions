@@ -1,11 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 
-import { appSlice, userSlice } from "@store/slice";
+import { userSlice, bidsSlice, notificationSlice } from "@/store/slices";
 
 const store = configureStore({
   reducer: {
-    app: appSlice,
     user: userSlice,
+    bids: bidsSlice,
+    notifications: notificationSlice,
   },
 });
 

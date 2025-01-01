@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import AppStatusGuard from "@/components/guards/appStatus";
+import AppStatusGuard from "@/components/guards/app-status-guard";
 
 import { DashboardPage, ComingSoonPage } from "@/pages";
 

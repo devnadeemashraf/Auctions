@@ -25,6 +25,11 @@ const AppStatusGuard = ({ children }: PropsWithChildren) => {
     return <Navigate to="/" replace />;
   }
 
+  {
+    /**
+     * Render the 'Router' Component, from react-router-dom, if STATUS is good to go
+     */
+  }
   return children;
 };
 
